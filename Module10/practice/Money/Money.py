@@ -1,3 +1,5 @@
+from base64 import b64decode, b64encode
+
 class Money:
     def __init__(self, whole=0, fractional=0):
         self.value = (whole * 100) + fractional
